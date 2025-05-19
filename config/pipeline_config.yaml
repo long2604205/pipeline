@@ -1,0 +1,10 @@
+raw_csv: "data/raw/users.csv"
+processed_csv: "data/processed/users_clean.csv"
+api_url: "https://randomuser.me/api/?results=100"
+
+mysql:
+  user: "root"
+  password: "root"
+  host: "172.16.16.180"
+  database: "data_pipeline"
+  table: "users"
